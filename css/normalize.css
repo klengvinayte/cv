@@ -18,6 +18,12 @@ html {
 
 body {
   margin: 0;
+  margin-top: 30px
+}
+
+.line {
+  border-bottom: 1px solid #808080; /* Параметры линии */
+  margin: 5% 0;
 }
 
 /* HTML5 display definitions
@@ -136,6 +142,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 
 /**
  * Address styling not present in IE 8/9.
@@ -425,3 +432,18 @@ td,
 th {
   padding: 0;
 }
+
+
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+.info p {
+  margin: 1.5% 0;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
